@@ -127,7 +127,7 @@ struct SideBar: View {
                 chatBot.switchTo(nil)
             }
         } label: {
-            Label("Delete Conversation", systemImage: "trash")
+            Label("Delete", systemImage: "trash")
         }
     }
     
