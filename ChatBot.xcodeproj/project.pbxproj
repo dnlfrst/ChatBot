@@ -71,17 +71,17 @@
 		3841FB3729B0A7DE00AAC814 /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				3841FB4129B0A7E200AAC814 /* ChatBot.entitlements */,
 				38C6CC2229B751A800B1BB2C /* Info.plist */,
 				3841FB3829B0A7DE00AAC814 /* ChatBotApp.swift */,
+				384356EE29B3940F005F2DBF /* ConditionalModifier.swift */,
 				3841FB3A29B0A7DE00AAC814 /* ContentView.swift */,
 				384356E529B2F266005F2DBF /* SideBar.swift */,
-				384356EB29B3066C005F2DBF /* View */,
-				384356EC29B30676005F2DBF /* Style */,
-				384356ED29B30682005F2DBF /* Model */,
-				384356EE29B3940F005F2DBF /* ConditionalModifier.swift */,
 				3841FB3C29B0A7E200AAC814 /* Assets.xcassets */,
-				3841FB4129B0A7E200AAC814 /* ChatBot.entitlements */,
+				384356ED29B30682005F2DBF /* Model */,
 				3841FB3E29B0A7E200AAC814 /* Preview Content */,
+				384356EC29B30676005F2DBF /* Style */,
+				384356EB29B3066C005F2DBF /* View */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				384356E929B2F70C005F2DBF /* APIKeyConfigurator.swift */,
-				384356DB29B1B716005F2DBF /* PlaceholderView.swift */,
 				3841FB4929B0B7D800AAC814 /* DialogView.swift */,
+				384356DB29B1B716005F2DBF /* PlaceholderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				3841FB4729B0A97700AAC814 /* ChatBot.swift */,
-				384356E729B2F353005F2DBF /* OpenAIServer.swift */,
 				384356E129B1CA69005F2DBF /* Conversation.swift */,
+				384356E729B2F353005F2DBF /* OpenAIServer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
